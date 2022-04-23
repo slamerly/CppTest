@@ -18,6 +18,11 @@ public:
 	Person(std::string name, std::string lastName, std::string birthDate, std::string gender, float money, Car& car);
 	~Person();
 
+	std::string GetName();
+	Car* GetCar();
+
+	void SetCar(Car& car);
+
 	void BuyCar(Car& newCar);
 	void SellCar();
 	void RollCar(float miles);

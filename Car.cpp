@@ -120,6 +120,6 @@ void Car::ToString()
 		break;
 	}
 
-	cout << "It is a " << color << " car with license plate " << mLicensePlate << endl;
+	cout << "The " << mBrand << " " << mModel << " is a " << color << " car with license plate " << mLicensePlate << endl;
 	cout << "With a mileage of " << mMileage << " km, it has a value of " << mCostValue << " Euros \n\n";
 }

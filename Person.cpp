@@ -42,6 +42,21 @@ Person::~Person()
 {
 }
 
+std::string Person::GetName()
+{
+	return mName;
+}
+
+Car* Person::GetCar()
+{
+	return mpCar;
+}
+
+void Person::SetCar(Car& car)
+{
+	mpCar = &car;
+}
+
 void Person::BuyCar(Car& newCar)
 {
 	cout << mName << " spent " << mMoney << " Euros, ";
